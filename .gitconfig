@@ -1,0 +1,24 @@
+[alias]
+	ri = rebase -i
+	c = commit
+	cm = commit -m
+	su = stash --include-untracked
+	bd = branch -d
+	bD = branch -D
+	dateNow = commit --amend --date=now --no-edit
+	cob = checkout -b
+	co = checkout
+	s = status
+	a = add
+	aa = add :/
+	sp = stash pop
+	r = rebase
+  rc = rebase --continue
+	b = branch
+	p = pull
+	ph = push
+	m = merge
+	cp = cherry-pick
+	f = fetch
+	l = log
+	undo = reset --soft HEAD~
